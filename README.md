@@ -14,11 +14,7 @@ var height = "74"
 module.exports = { name, height
 }
 ```
-if (name === "Susan") {
-    console.log("The name is correct")
-} else {
-    console.log("Expected the name to be Susan")
-}
+var name = "Susan"
 
 First of all, don't worry about the `module.exports` stuff right now, we'll get to that later. You've seen the rest of this stuff before but let's review. This assigns `"Joe"` to the `name` variable using the assignment operator (`=`). It also assigns `"74"` to `height`. Both `"Joe"` and `"74"` are Strings. We know that because they are wrapped in quotes. We have our code, but we don't have our tests. Let's write a test right below the `var height = "74"` line to check that `name` is equal to `"Susan"`. That should look something like this:
 
